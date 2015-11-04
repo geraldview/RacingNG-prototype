@@ -1,0 +1,43 @@
+{
+  // I want to use babel-eslint for parsing!
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "eol-last": [0],
+    "no-use-before-define": [0],
+    "key-spacing": [0],
+    "no-multi-spaces": [0],
+    "no-trailing-spaces": [0],
+
+    "no-unused-vars": [0], // enable it and fix issues
+    "comma-spacing": [0], // enable it and fix issues
+    "no-extra-boolean-cast": [0], // enable it and fix issues
+    "semi-spacing": [0], // enable it and fix issues
+    "semi": [0], // enable it and fix issues
+    "no-unused-expressions": [0], // enable it and fix issues
+    "space-infix-ops": [0], // enable it and fix issues
+    "no-shadow": [0], // enable it and fix issues
+    "camelcase": [0], // enable it and fix issues
+    "no-underscore-dangle": [0], // enable it and fix issues
+    "comma-dangle": [0], // enable it and fix issues
+    "consistent-return": [0], // enable it and fix issues
+    "no-spaced-func": [0], // enable it and fix issues
+    "no-return-assign": [0], // enable it and fix issues
+    "no-native-reassign": [0], // enable it and fix issues
+    "no-loop-func": [0] // enable it and fix issues
+  },
+  "globals": {
+    "protractor": true,
+    "angular": true,
+    "element": true,
+    "by": true,
+    "browser": true,
+    "inject": true
+  }
+}
