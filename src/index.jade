@@ -1,4 +1,15 @@
 doctype html
 html(lang="en")
-    head
-        title=
+
+  head
+    block head
+    title Sportsbet.co.za
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    base(href="/")
+
+  body(class="lang-en platform-ready")
+    block body
+
+      include browser_compatibility.jade
+      app#sportsbet-app
+
