@@ -1,1 +1,1 @@
-# Sportsbet Prototyping Project
+# RacingNG - Racing Next Gen prototype
